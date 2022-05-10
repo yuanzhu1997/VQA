@@ -1,6 +1,6 @@
 # Visual question answering final project
 
-This is a final project about visual question answering [2] implemented through [PyTorch][1]. The code is written based on [0]. 
+This is a final project about [visual question answering][2] implemented through [PyTorch][1]. The code is written based on [github][0]. 
 
 
 
