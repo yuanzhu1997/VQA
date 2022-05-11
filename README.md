@@ -41,7 +41,12 @@ The process will alternate between training and validation process while preting
 
 The logs contain the name of the model, training statistics, contents of `config.py`,  model weights, evaluation information (per-question answer and accuracy), and question and answer vocabularies.
 
+## Attention mechanism 
 
+We also provide the function to visualize the spatial-wise and channel-wise attention mechansim. 
+```
+python visualization.py network device image_item question_item
+```
 
 ## Python 3 dependencies (tested on Python 3.6.2)
 
