@@ -24,11 +24,18 @@ python train.py model-name
 Here we provide four different models. 
 | model-name      | Description |
 | ----------- | ----------- |
+| Base      | Baseline        |
+| LSTM-Base | Baselien w/ 1layer LSTM question encoding |
+| LSTM-3-Base | Baselien w/ 3layer GRU question encoding |
+| LSTM-bi-Base | Baselien w/ bidirection LSTM question encoding |
+| GRU-Base  | Baselien w/ 1layer GRU question encoding |
+| GRU-3-Base  | Baselien w/ 3layer GRU question encoding |
+| GRU-bi-Base | Baselien w/ bidirection GRU question encoding |
 | SCA      | spatial-channel attention       |
 | CSA      | channel-spatial attention       |
 | C-Base      | channel attention       |
 | S-Base      | spatial only attention       |
-| Base      | Baseline        |
+
 
 The process will alternate between training and validation process while preting out the current progress to stdout. After the training, the result will be automatically saved in the `logs` directory. 
 
